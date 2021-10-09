@@ -64,7 +64,7 @@ void main() {
 	}
 
 	
-	std::vector<double> muVec{ -0.330628743, 1.53931622e-2, 0.724052710 }; //Treloar
+	std::vector<double> muVec{ -0.330628743, 1.53931622e-2, 0.724052710 }; 
 	std::vector<double> alphaVec{ 10.557649, 13.2929248, -20.0136033};
 	std::vector<double> trueStress(trueStrain.size());
 	
@@ -76,7 +76,7 @@ void main() {
 		Epsilon << trueStrain[i] << "\n";
 		Sigma << trueStress[i] << "\n";
 
-		///------------------------- Test to see if a matrix can be saved into a CSV file
+
 		matrix[i][0] = exp(trueStrain[i])-1; //From true strain to engineering strain
 		matrix[i][1] = (trueStress[i])/exp(trueStrain[i]); // From true stress to engineering stress
 	}
