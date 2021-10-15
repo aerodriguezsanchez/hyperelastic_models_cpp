@@ -1,8 +1,3 @@
-/* © 2020 Alejandro E. Rodriguez.  All rights reserved. //For personal use only. 
-It is not permitted to distribute verbatim copies of this document, 
-and changing it is not allowed. Contact the owner of the code at arodsn.com blog 
-for further permissions.*/
-
 #include <math.h>
 #include <fstream>
 #include <vector>
